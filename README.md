@@ -33,6 +33,10 @@ pip install json
 pip install datetime
 pip install mac-vendor-lookup
 ```
+or 
+```
+pip install -r requirements.txt
+```
 ----
  
 Note I am using the `UniFi U6-Lite` but this should work for any Unifi Access Point. 
