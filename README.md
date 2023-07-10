@@ -2,11 +2,11 @@
 This Python script will ssh into a Unifi AP, run a `mca-dump` command, and pull and process all the information from that output.
 
  #### Running the Script. 
-`python3 wifi-devices-details.py` 
+`python3 Unifi_AP.py` 
 
 #### Output
 ```
-root@computer:~/scripts# python3 wifi-devices-detail.py
+root@computer:~/scripts# python3 Unifi_AP.py
 
 No.     IP Address      MAC Address             Uptime          Hostname
 ---------------------------------------------------------------------------
@@ -25,6 +25,15 @@ No.     IP Address      MAC Address             Uptime          Hostname
 13)     192.168.2.12    ac:ff:c4:77:34:63       2 hours         Raspberry Pi
 ```
  ----
+
+Requirements.
+
+pip install paramiko
+pip install json
+pip install datetime
+pip install mac-vendor-lookup
+
+----
  
 Note I am using the `UniFi U6-Lite` but this should work for any Unifi Access Point. 
 Credentials will need to be updated accordingly and these are found in the Unifi APP
