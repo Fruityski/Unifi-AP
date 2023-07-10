@@ -26,13 +26,13 @@ No.     IP Address      MAC Address             Uptime          Hostname
 ```
  ----
 
-Requirements.
-
+Python pip Requirements.
+```
 pip install paramiko
 pip install json
 pip install datetime
 pip install mac-vendor-lookup
-
+```
 ----
  
 Note I am using the `UniFi U6-Lite` but this should work for any Unifi Access Point. 
